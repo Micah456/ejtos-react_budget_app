@@ -1,13 +1,78 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .select-wrap {
+      width:200px;
+      position:relative;
+    }
+    .select-wrap label{
+      padding: 0 8px;
+      color: white;
+      position: absolute;
+      top:2px;
+      
+    }
+  
+    .close-currency-label{
+      right: 30px;
+    }
+    
+    .select-wrap select{
+      background-color: #A5E1A0;
+      color: white;
+      padding-left:80px;
+      padding-right: 20px;
+      border:0px;
+      height:30px;
+      font-size: 16px;
+    }
+    .select-wrap option{
+        color:black;
+    }
+    option:focus{
+        background-color: white;
+    }
+    .budget-value-p{
+        font-size: 27px;
+    }
+    .custom-select, #cost, #save-btn{
+        height:38px;
+    }
+    #inputGroupSelect02{
+        margin-right: 20px;
+    }
+    .plus-btn{
+        background-color: #4FAC5C;
+    }
+    .minus-btn{
+        background-color: #AF2318;
+    }
+    .minus-btn > p{
+        left:0
+    }
+    .plus-btn > p{
+        left:-4px
+    }
+    .change-budget-btn{
+        border: none;
+        border-radius: 20px;
+        width:40px;
+        height:40px;
+    }
+    .change-budget-btn > p {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        top:-24px;
+    }
